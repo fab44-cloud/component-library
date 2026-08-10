@@ -6,7 +6,16 @@ import Badge from "./components/Badge/Badge.jsx"
 
 function App() {
   return (
-    <Badge>Success</Badge>
+    <div>
+      <Badge color="gray">Badge</Badge>
+      <Badge color="red">Badge</Badge>
+      <Badge color="yellow">Badge</Badge>
+      <Badge color="green">Badge</Badge>
+      <Badge color="blue">Badge</Badge>
+      <Badge color="indigo">Badge</Badge>
+      <Badge color="purple">Badge</Badge>
+      <Badge color="pink">Badge</Badge>
+    </div>
   )
 }
 
