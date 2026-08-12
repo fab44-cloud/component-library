@@ -120,6 +120,8 @@ button.button-danger {
     background-color: blue;
 }
 
+.heading {font-family: "Permanent Marker", cursive; font-weight: 400; font-size: 44.1px;}
+
 .badge {
     display: inline-flex;
     align-items: center;
@@ -128,6 +130,11 @@ button.button-danger {
     font-weight: 500;
     font-size: 14px;
 }
+
+.badge-square {border-radius: 4px;}
+.badge-pill {border-radius: 12px;}
+
+.badge-shape {color: #5E5D5D; font-weight: 400; font-size: 20px; font-family: "Permanent Marker", cursive;}
 
 .badge-gray {background-color:#F3F4F6; color: #1F2937;}
 .badge-red {background-color: #FEE2E2; color: #991B1B;}
