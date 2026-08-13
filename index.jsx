@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Menu from "./components/Menu/index"
 import Star from "./components/Star"
 import Badge from "./components/Badge/Badge.jsx"
+import Banner from "./components/Banner/Banner.jsx"
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
         <Badge color="purple" shape="pill">Badge</Badge>
         <Badge color="pink" shape="pill">Badge</Badge>
       </div>
+
+      <Banner status="success"></Banner>
     </>
   )
 }
