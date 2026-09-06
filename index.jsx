@@ -37,6 +37,7 @@ function App() {
         <Banner status="success">
           <BannerTitle className="banner-title">Congratulations!</BannerTitle>
         </Banner>
+        <BannerTitle className="banner-title">Attention</BannerTitle>
     </>
   )
 }
