@@ -153,4 +153,7 @@ button.button-danger {
 .banner {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
+
+.banner-success {background-color: #ECFDF5; color: #065F46;}
