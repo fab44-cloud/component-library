@@ -22,3 +22,7 @@ export default function Banner({ children, status="neutral" }) {
 export function BannerTitle({ children }) {
     return <h4>{children}</h4>
 }
+
+export function BannerDescription({ children }) {
+    return <p>{children}</p>
+}
