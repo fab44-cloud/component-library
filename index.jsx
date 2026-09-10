@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Menu from "./components/Menu/index"
 import Star from "./components/Star"
 import Badge from "./components/Badge/Badge.jsx"
-import Banner, { BannerTitle } from "./components/Banner/Banner.jsx"
+import Banner, { BannerTitle, BannerDescription } from "./components/Banner/Banner.jsx"
 
 function App() {
   return (
@@ -33,11 +33,16 @@ function App() {
         </div>
 
       <h1 className="heading">Banners</h1>
-      <span className="category">Success</span>
+      <div style={{ display: "flex", alignItems: "center", gap: "10px"}}>
+        <span className="category">Success</span>
         <Banner status="success">
           <BannerTitle className="banner-title">Congratulations!</BannerTitle>
+          <BannerDescription>Lorem ipsum dolor sit amet consectetur adipisicing elit.</BannerDescription>
         </Banner>
-        <BannerTitle className="banner-title">Attention</BannerTitle>
+      </div>
+        <Banner status="warning">
+          <BannerTitle className="banner-title">Attention</BannerTitle>
+        </Banner>
     </>
   )
 }
