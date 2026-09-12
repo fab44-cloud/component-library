@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: Inter;
+    background-color: gainsboro;
 }
 
 .star {
@@ -151,9 +152,14 @@ button.button-danger {
 .badge-pink {background-color:#FCE7F3; color: #9D174D;}
 
 .banner {
+    padding: 2rem;
+    border-radius: 6px;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    margin-bottom: 1em;
+    width: 896px;
 }
 
 .banner-success {background-color: #ECFDF5; color: #065F46;}
+.banner-warning {background-color: #FFFBEB; color: #B45309;}
+.banner-error {background-color: #FEF2F2; color: #92400E;}
+.banner-neutral {background-color: #EFF6FF; color: #1E40AF;}
