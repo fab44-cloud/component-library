@@ -33,16 +33,37 @@ function App() {
         </div>
 
       <h1 className="heading">Banners</h1>
-      <div style={{ display: "flex", alignItems: "center", gap: "10px"}}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: 'space-between'}}>
         <span className="category">Success</span>
         <Banner status="success">
           <BannerTitle className="banner-title">Congratulations!</BannerTitle>
           <BannerDescription>Lorem ipsum dolor sit amet consectetur adipisicing elit.</BannerDescription>
         </Banner>
       </div>
+
+      <div style={{ display: "flex", alignItems: "center"}}>
+        <span className="category">Warning</span>
         <Banner status="warning">
           <BannerTitle className="banner-title">Attention</BannerTitle>
+          <BannerDescription>Quid pro quo</BannerDescription>
         </Banner>
+      </div>
+
+      <div style={{ display: "flex", alignItems: "center", justifyContent: 'space-between'}}>
+        <span className="category">Error</span>
+        <Banner status="error">
+          <BannerTitle className="banner-title">There is a problem with your application.</BannerTitle>
+          <BannerDescription>Cerberus est in via. Cerberus dormit. Cerberus est canis.</BannerDescription>
+        </Banner>
+      </div>
+
+      <div style={{ display: "flex", alignItems: "center", justifyContent: 'space-between'}}>
+        <span className="category">Neutral</span>
+        <Banner status="neutral">
+          <BannerTitle className="banner-title">Update available</BannerTitle>
+          <BannerDescription>Carpe diem</BannerDescription>
+        </Banner>
+      </div>
     </>
   )
 }
